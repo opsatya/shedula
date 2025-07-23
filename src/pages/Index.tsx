@@ -1,13 +1,44 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import SheduleLoginForm, { LoginFormData } from "@/components/SheduleLoginForm";
+import { useToast } from "@/hooks/use-toast";
 
 const Index = () => {
+  const { toast } = useToast();
+
+  const handleLogin = (data: LoginFormData) => {
+    toast({
+      title: "Login Attempted",
+      description: `Email/Phone: ${data.emailOrPhone}, Remember Me: ${data.rememberMe}`,
+    });
+  };
+
+  const handleGoogleLogin = () => {
+    toast({
+      title: "Google Login",
+      description: "Google OAuth integration would be implemented here",
+    });
+  };
+
+  const handleForgotPassword = () => {
+    toast({
+      title: "Forgot Password",
+      description: "Password recovery flow would be implemented here",
+    });
+  };
+
+  const handleSignUp = () => {
+    toast({
+      title: "Sign Up",
+      description: "Registration flow would be implemented here",
+    });
+  };
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <SheduleLoginForm
+      onSubmit={handleLogin}
+      onGoogleLogin={handleGoogleLogin}
+      onForgotPassword={handleForgotPassword}
+      onSignUp={handleSignUp}
+    />
   );
 };
 

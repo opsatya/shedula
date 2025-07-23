@@ -17,8 +17,9 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Sea Serpent Blue as primary brand color */
+    --primary: 192 76% 55%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -34,7 +35,21 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 192 76% 55%;
+
+    /* Shedula brand colors */
+    --shedula-brand: 192 76% 55%; /* Sea Serpent Blue #46C2DE */
+    --shedula-success: 142 76% 36%; /* Green for badges */
+    --shedula-danger: 0 84% 60%; /* Red/pink for forgot password */
+    
+    /* Input and form styling */
+    --input-bg: 0 0% 97%; /* Light gray F7F7F7 */
+    --input-border: 220 13% 91%;
+    
+    /* Text colors */
+    --text-primary: 222.2 84% 4.9%;
+    --text-secondary: 215.4 16.3% 46.9%;
+    --text-muted: 0 0% 63%;
 
     --radius: 0.5rem;
 

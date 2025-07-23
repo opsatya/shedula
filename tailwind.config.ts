@@ -18,7 +18,18 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'poppins': ['Poppins', 'sans-serif'],
+			},
 			colors: {
+				'shedula-brand': 'hsl(var(--shedula-brand))',
+				'shedula-success': 'hsl(var(--shedula-success))',
+				'shedula-danger': 'hsl(var(--shedula-danger))',
+				'input-bg': 'hsl(var(--input-bg))',
+				'input-border': 'hsl(var(--input-border))',
+				'text-primary': 'hsl(var(--text-primary))',
+				'text-secondary': 'hsl(var(--text-secondary))',
+				'text-muted': 'hsl(var(--text-muted))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
