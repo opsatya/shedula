@@ -56,7 +56,7 @@ export default function OTPVerification() {
   };
 
   return (
-    <div className="min-h-screen bg-background font-poppins">
+    <div className="min-h-screen bg-background font-poppins max-w-sm mx-auto">
       {/* Top Bar / Header */}
       <div className="flex items-center justify-between p-4 pt-12">
         <button
@@ -72,7 +72,7 @@ export default function OTPVerification() {
       </div>
 
       {/* Main Content */}
-      <div className="px-5 pt-8 pb-6">
+      <div className="px-5 pt-16 pb-6">
         {/* Instructional Message */}
         <div className="text-center mb-8">
           <p className="text-text-primary text-base font-normal">

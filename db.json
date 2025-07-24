@@ -1,0 +1,67 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Prakash das",
+      "role": "Sr. Psychologist",
+      "speciality": "Psychologist",
+      "hospital": "Apollo Hospital, Mumbai",
+      "image": "photo-1581091226825-a6a2a5aee158",
+      "patients": "5,000+",
+      "experience": "15+",
+      "rating": "4.8",
+      "qualification": "MBBS, MS (Psychology), Sydney College and University",
+      "service": "Medicare",
+      "about": "Dr. Prakash Das is a highly experienced psychologist with over 15 years of practice in treating anxiety disorders, depression, and behavioral therapy. He has helped thousands of patients overcome mental health challenges through evidence-based treatment approaches and compassionate care.",
+      "consultingHours": [
+        "08:00 AM - 10:00 AM",
+        "01:00 PM - 04:00 PM",
+        "06:00 PM - 08:00 PM"
+      ],
+      "consultingDays": "Monday - Friday",
+      "isFavorite": false
+    },
+    {
+      "id": "2",
+      "name": "Dr. Sarah Johnson",
+      "role": "Cardiologist",
+      "speciality": "Cardiology",
+      "hospital": "Fortis Hospital, Delhi",
+      "image": "photo-1581092795360-fd1ca04f0952",
+      "patients": "3,500+",
+      "experience": "12+",
+      "rating": "4.9",
+      "qualification": "MBBS, MD (Cardiology), Harvard Medical School",
+      "service": "Medicare",
+      "about": "Dr. Sarah Johnson is a renowned cardiologist specializing in interventional cardiology and heart disease prevention. She has performed over 2000 successful cardiac procedures and is known for her patient-centered approach to cardiovascular care.",
+      "consultingHours": [
+        "09:00 AM - 12:00 PM",
+        "02:00 PM - 05:00 PM"
+      ],
+      "consultingDays": "Monday - Saturday",
+      "isFavorite": true
+    },
+    {
+      "id": "3",
+      "name": "Dr. Michael Chen",
+      "role": "Neurologist",
+      "speciality": "Neurology",
+      "hospital": "Max Hospital, Bangalore",
+      "image": "photo-1518770660439-4636190af475",
+      "patients": "4,200+",
+      "experience": "18+",
+      "rating": "4.7",
+      "qualification": "MBBS, DM (Neurology), Johns Hopkins University",
+      "service": "Medicare",
+      "about": "Dr. Michael Chen is a distinguished neurologist with extensive experience in treating stroke, epilepsy, and movement disorders. His research contributions in neuroscience have been published in leading medical journals worldwide.",
+      "consultingHours": [
+        "10:00 AM - 01:00 PM",
+        "03:00 PM - 06:00 PM"
+      ],
+      "consultingDays": "Monday - Friday",
+      "isFavorite": false
+    }
+  ],
+  "appointments": [],
+  "feedback": []
+}

@@ -8,6 +8,8 @@ import Login from "./pages/Login";
 import NotFound from "./pages/NotFound";
 import OTPVerification from "./components/OTPVerification";
 import DoctorListing from "./components/DoctorListing";
+import BookAppointment from "./components/BookAppointment";
+import DoctorProfile from "./components/DoctorProfile";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +23,8 @@ const App = () => (
           <Route path="/" element={<DoctorListing />} />
           <Route path="/login" element={<Login />} />
           <Route path="/otp" element={<OTPVerification />} />
+          <Route path="/doctor/:doctorId" element={<DoctorProfile />} />
+          <Route path="/book-appointment/:doctorId" element={<BookAppointment />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

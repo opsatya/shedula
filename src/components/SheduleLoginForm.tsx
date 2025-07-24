@@ -40,9 +40,9 @@ export default function SheduleLoginForm({
   return (
     <div className="min-h-screen bg-background font-poppins px-4 py-11 flex flex-col justify-start max-w-sm mx-auto">
       {/* Welcome Section */}
-      <div className="mb-8">
+      <div className="mb-20 mt-16">
         <p className="text-text-primary text-base mb-2">
-          Hi 👋 Welcome too <span className="text-shedula-brand font-medium">Shedula</span>
+          Hi Welcome too <span className="text-shedula-brand font-medium">Shedula</span>
         </p>
         <h1 className="text-text-primary text-2xl font-bold">Login</h1>
       </div>
@@ -76,10 +76,6 @@ export default function SheduleLoginForm({
               <label htmlFor="rememberMe" className="text-sm text-text-primary font-medium">
                 Remember Me
               </label>
-            </div>
-            {/* Prefilled tag */}
-            <div className="bg-shedula-success text-white text-xs font-semibold px-3 py-1 rounded-full inline-block">
-              Abhinay Mesipogu
             </div>
           </div>
           
